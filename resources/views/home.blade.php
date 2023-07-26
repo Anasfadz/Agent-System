@@ -18,6 +18,32 @@
                 </div>
             </div>
         </div>
+
+        <div class="col-md-12">
+            <h1 style="margin-top: 30px; margin-bottom:30px"> Your Downline </h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>e-Mail</th>
+                        <th>Register Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach ($referredUsers as $item)
+                    <tr>
+                        <td>{{ $item->id }}</td>
+                        <td>{{ $item->name }}</td>
+                        <td>{{ $item->email}}</td>
+                        <td>{{ $item->created_at->format('Y-m-d')}}</td>
+                    </tr>
+                    @endforeach
+                </tbody>
+            </table>    
+        </div>
+
+ 
     </div>
 </div>
 @endsection

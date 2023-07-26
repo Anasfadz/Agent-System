@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ReferalController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::post('/referal-process',[ReferalController::class, 'processForm'])->name('referal.process');
+Route::get('/referal',[ReferalController::class, 'index'])->name('referal');

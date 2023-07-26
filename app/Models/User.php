@@ -21,6 +21,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'referrer_id',
+        'referal_token',
     ];
 
     /**
@@ -41,4 +43,12 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function referrals() {
+        return $this->hasMany(Referral::class, 'referrer_id');
+    }
+
+    public function referrer() {
+        return $this->belongsTo(User::class, 'referrer_id');
+    }
 }
