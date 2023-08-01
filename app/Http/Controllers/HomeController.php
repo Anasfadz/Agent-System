@@ -26,9 +26,11 @@ class HomeController extends Controller
     public function index()
     {
         $user_id = Auth::id();
-        $referrer = User::find($user_id);
-        $referredUsers = $referrer->referrals;
-
-        return view('home', compact('referredUsers'));
+        $data = User::find($user_id, 'id');
+        $data2 = User::ReferalTree($data);
+        $data2 = json_decode('[' . str_replace('}{', '},{', $data2) . ']',true);
+    
+        return view('home', compact('data2'));
     }
+
 }

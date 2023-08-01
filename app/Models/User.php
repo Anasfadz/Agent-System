@@ -45,7 +45,25 @@ class User extends Authenticatable
     ];
 
     public function referrals() {
-        return $this->hasMany(Referral::class, 'referrer_id');
+        return $this->hasMany(User::class, 'referrer_id');
+    }
+
+    public function allSubReferrals()
+    {
+        return $this->referrals()->with('allSubReferrals');
+    }
+
+    public static function ReferalTree($referrals, $prefix = '')
+    {
+        $output = $prefix . $referrals;
+        
+        foreach ($referrals->referrals as $subCategory) {
+            $output .= self::ReferalTree($subCategory, $prefix);
+        }
+
+        return $output;
+
+        
     }
 
     public function referrer() {

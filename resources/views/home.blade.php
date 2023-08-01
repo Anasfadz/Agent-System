@@ -31,12 +31,13 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($referredUsers as $item)
+                    @foreach ($data2 as $item)
+                    @if ($loop->first) @continue @endif
                     <tr>
-                        <td>{{ $item->id }}</td>
-                        <td>{{ $item->name }}</td>
-                        <td>{{ $item->email}}</td>
-                        <td>{{ $item->created_at->format('Y-m-d')}}</td>
+                        <td>{{ $item["id"] }}</td>
+                        <td>{{ $item["name"] }}</td>
+                        <td>{{ $item["email"]}}</td>
+                        <td>{{ substr( $item["created_at"],0,10 )}}</td>
                     </tr>
                     @endforeach
                 </tbody>
