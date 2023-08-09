@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AnasController;
 use App\Http\Controllers\ReferalController;
 use Illuminate\Support\Facades\Route;
 
@@ -13,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
+Route::get('/', [AnasController::class, 'index']);
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
