@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Website Title -->
-    <title>John - Professional web designer and photographer</title>
+    <title>Anas Fadzrin - Software Developer</title>
     <!-- Bootstrap -->
     <link href="anas/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font-Awesome -->
@@ -107,7 +107,13 @@
               <div class="col-md-8 col-md-offset-2 wp1">
                 <h1 class="arrow">A little <span>about</span> me</h1><!-- Headline -->
 				<!-- about / welcome text -->
-                <p>I am enough of an artist to draw freely upon my imagination. The point is that when I see a sunset or a <a href="#">waterfall</a> or something, for a split second it's so great, because for a little bit I'm out of my brain, and it's got nothing to do with me. I'm not trying to figure it out, you know what I mean? And I wonder if I can somehow find a way to maintain that mind stillness.</p>
+        <p>Results-oriented software developer with a solid foundation in full-stack web development and a passion for crafting efficient, high-quality code. Proficient in various programming languages and frameworks, with a keen eye for detail and a drive for continuous learning. Known for effectively collaborating with cross-functional teams to deliver innovative solutions that align with business goals</p>
+
+        <p>With a strong background in software engineering and a natural problem-solving inclination, I have consistently contributed to the development of user-friendly, scalable applications. My insatiable curiosity drives me to stay current with emerging technologies and industry trends, ensuring that my skills remain cutting-edge.</p>
+
+        <p>Whether working autonomously or as part of a collaborative effort, I thrive on challenging projects that push my boundaries and offer opportunities for growth. I take pride in writing clean, maintainable code and am adept at debugging and optimizing existing systems.</p>
+
+        <p>My dedication to the software development craft extends beyond the office walls, as I am an active participant in developer communities, open-source projects, and continuous learning platforms. As I continue to evolve my skill set, I am excited to contribute my expertise to a forward-thinking team that shares my commitment to excellence and innovation.</p>
               </div>
             </div>
           </div>
@@ -124,7 +130,7 @@
         <!-- Headline -->
             <div class="row">
               <div class="col-md-12">
-                <h1 class="arrow">I do amazing things for clients</h1>
+                <h1 class="arrow">My Working Experience</h1>
               </div>
             </div>
             <div class="row">
@@ -133,29 +139,26 @@
           <!-- Service Box 1 -->
                   <div class="col-md-4 wp2 item">
                     <div class="icon">
-                      <i class="fa fa-camera"></i><!-- Icon -->
+                      <i class="fa fa-code"></i><!-- Icon -->
                     </div>
-                    <h2>Photographer</h2><!-- Title -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p><!-- Description -->
+                    <h2>Software Developer</h2><!-- Title -->
+                    <p>Coming Soon</p><!-- Description -->
                   </div>
           <!-- Service Box 2 -->
                   <div class="col-md-4 wp2 item delay-05s">
                     <div class="icon">
-                      <i class="fa fa-desktop"></i><!-- Icon -->
+                      <i class="fa fa-terminal"></i><!-- Icon -->
                     </div>
-                    <h2>Web Designer</h2><!-- Title -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p><!-- Description -->
+                    <h2>Ubuntu Server</h2><!-- Title -->
+                    <p>Coming Soon</p><!-- Description -->
                   </div>
           <!-- Service Box 3 -->
                   <div class="col-md-4 wp2 item delay-1s">
                     <div class="icon">
-                      <i class="fa fa-cubes"></i><!-- Icon -->
+                      <i class="fa fa-desktop"></i><!-- Icon -->
                     </div>
-                    <h2>3D Artist</h2><!-- Title -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p><!-- Description -->
+                    <h2>CI/CD</h2><!-- Title -->
+                    <p>Coming Soon</p><!-- Description -->
                   </div>
           </div>
                   <div class="clearfix"></div>
@@ -168,34 +171,31 @@
 		    <!-- About 1 -->
 			<div class="row color-bg">
 				<div class="col-md-6 nopadding features-intro-img">
-					<div class="about-image" style="background-image:url(anas/img/about1.png)"></div><!-- about image 1 -->
+					<div class="about-image" style="background-image:url(anas/img/comingSoon.jpg)"></div><!-- about image 1 -->
 				</div>
 				<div class="col-md-6 about-text">
-					<h6>High quality webdesign</h6><!-- headline-->
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 1 -->
-					<a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->			
+					<h6>2en Apps SDN BHD</h6><!-- headline-->
+					<p>Coming soon</p><br><!-- About Text 1 -->
 				</div>
 			</div>
 			<!-- About 2 -->
 			<div class="row">
 				<div class="col-md-6 about-text">
-					<h6>Professional Photography</h6><!-- Headline -->
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 2 -->
-					<a href="index.html#team" class="weight-outline-btn">Read more</a>	<!-- read more button  -->				
+					<h6>Senwave Retail Solutions</h6><!-- Headline -->
+					<p>Coming Soon</p><br><!-- About Text 2 -->
 				</div>
 				<div class="col-md-6 nopadding features-intro-img">
-					<div class="about-image" style="background-image:url(anas/img/about2.png)"></div><!-- about image 2 -->
+					<div class="about-image" style="background-image:url(anas/img/comingSoon.jpg)"></div><!-- about image 2 -->
 				</div>
 			</div>
 			<!-- About 3 -->
 			<div class="row color-bg">
 				<div class="col-md-6 nopadding features-intro-img">
-					<div class="about-image" style="background-image:url(anas/img/about3.png)"></div><!-- about image 3 -->
+					<div class="about-image" style="background-image:url(anas/img/comingSoon.jpg)"></div><!-- about image 3 -->
 				</div>
 				<div class="col-md-6 about-text">
-					<h6>3d modeling and animations</h6><!-- Headline-->
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 3 -->
-					<a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->					
+					<h6>Ministry of Health</h6><!-- Headline-->
+          <p>Coming Soon</p>
 				</div>
 			</div>
 		</div>
@@ -214,7 +214,7 @@
         <!-- Headline -->
         <div class="row">
               <div class="col-md-12">
-                <h1 class="arrow">My <span>little</span> blog</h1>
+                <h1 class="arrow">My <span>Sample</span> Project</h1>
               </div>
             </div><br><br>
       
@@ -227,69 +227,34 @@
                     <div class="col-md-4 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                          <img src="anas/img/blog1.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                          <img src="anas/img/anas1.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
                         </div>
                       </div>
             <br>
-                      <h2>Creative Minds</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description-->
+                      <h2>Agent System</h2><!-- Headline -->
+                      <p>Coming soon</p><!-- Description-->
                     </div>
           <!-- Blog Entry 2 -->
                     <div class="col-md-4 wp4 delay-05s">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                          <img src="anas/img/blog2.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                          <img src="anas/img/anas3.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
                         </div>
                       </div>
             <br>
-                      <h2>Creative Hearts</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description -->
+                      <h2>Internship Project</h2><!-- Headline -->
+                      <p>Coming Soon</p>
                     </div>
           <!-- Blog Entry 3 -->
                     <div class="col-md-4 wp4 delay-1s">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                          <img src="anas/img/blog3.jpg"  class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                          <img src="anas/img/anas4.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
                         </div>
                       </div>
             <br>
-                      <h2>Creative Ideas</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description-->
-                    </div>
-                  </li>
-                  <li>
-            <!-- Blog Entry 4 -->
-                    <div class="col-md-4 wp4">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="anas/img/blog1.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Creative Minds</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description -->
-                    </div>
-          <!-- Blog Entry 5 -->
-                    <div class="col-md-4 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="anas/img/blog2.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Creative Hearts</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
-                    </div>
-          <!-- Blog Entry 6 -->
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="anas/img/blog3.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Creative Ideas</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description -->
+                      <h2>Final Year Project</h2><!-- Headline -->
+                      <p>Coming Soon</p>
                     </div>
                   </li>
                 </ul>
@@ -310,16 +275,16 @@
 			<div class="row color-bg">
 				<!-- Left Image -->
 				<div class="col-md-6 nopadding features-intro-img wow fadeInLeft">
-					<div class="about-image" style="background-image:url(anas/img/clients.png)"></div>
+					<div class="about-image" style="background-image:url(anas/img/comingSoon.jpg)"></div>
 				</div>
 				<!-- Clients / Testimonials -->
 				<div class="col-md-6 nopadding about-text">
-				<h6>What our clients said</h6>
+				<h6>My vision</h6>
 					<div id="clientSlider">
 					   <ul class="slides">
-					       <li><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br>	<small>- Pete Rock, A New Tomorrow</small></p></li>
-						   <li><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br>	<small>- Michael Snowden, Creativeland CEO</small></p></li>
-						  <li><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br>	<small>- Tom Davis, GreenWonder</small></p>	</li>
+					       <li><p>Coming soon <br>	<small></small></p></li>
+						   <li><p>Coming soon<br>	<small></small></p></li>
+						  <li><p>Coming soon<br>	<small></small></p>	</li>
 					   </ul>
 					</div>
 				</div>
@@ -374,7 +339,7 @@
 			  <!-- E-Mail Box -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
-                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                  <h2><i class="fa fa-envelope"></i><span>Email</span></h2>
                   <p>anasfadzrin@gmail.com</p>
                 </div>
               </div>
@@ -384,11 +349,11 @@
             <div class="row">
               <div class="col-md-12">
                 <ul class="social-buttons">
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-instagram"></i></a></li><!-- dribble -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
-				  <li><a href="index.html#" class="social-btn"><i class="fa fa-linkedin"></i></a></li><!-- deviantart -->
-				  <li><a href="index.html#" class="social-btn"><i class="fa fa-github"></i></a></li><!-- youtube -->
+                  <li><a href="" class="social-btn"><i class="fa fa-instagram"></i></a></li><!-- dribble -->
+                  <li><a href="" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
+                  <li><a href="" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
+				  <li><a href="https://www.linkedin.com/in/anas-fadzrin-b25313219" class="social-btn"><i class="fa fa-linkedin"></i></a></li><!-- deviantart -->
+				  <li><a href="https://github.com/Anasfadz" class="social-btn" target="blank"><i class="fa fa-github"></i></a></li><!-- youtube -->
                 </ul>
               </div>
             </div>
