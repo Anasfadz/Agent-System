@@ -14,13 +14,15 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    <p>Hi {{$user->name}} </p>
+                    <p>Registered user    = {{count($data2)-1}}</p>
+                    <p>Your referral code = {{$user->referal_token}}</p>
                 </div>
             </div>
         </div>
 
         <div class="col-md-12">
-            <h1 style="margin-top: 30px; margin-bottom:30px"> Your Downline </h1>
+            <h1 style="margin-top: 30px; margin-bottom:30px"> Users Registered Under You </h1>
             <table>
                 <thead>
                     <tr>
